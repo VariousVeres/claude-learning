@@ -1,0 +1,11 @@
+09:05 Standup, agreed to finish login regression today
+09:30 Started AUTO-412: fix flaky test LoginPageTest.rememberMe
+10:15 Found root cause: missing wait for cookie banner
+11:00 AUTO-412 fixed, PR opened
+11:20 Nightly run on Jenkins: 214 passed, 6 failed (suite: CheckoutRegression)
+11:45 Investigating CheckoutRegression failures, 4 of 6 caused by payment sandbox timeout
+13:30 Asked DevOps about payment sandbox, waiting for reply
+14:10 Started AUTO-418: API tests for /orders endpoint
+15:40 AUTO-418: 7 of 12 test cases written
+16:30 Code review for teammate PR AUTO-409, left 3 comments
+17:15 AUTO-412 PR merged
